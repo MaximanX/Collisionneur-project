@@ -1,0 +1,18 @@
+.pane{    
+    -fx-background-color: #A9D0F5;
+}
+
+.button {
+	-fx-background-color: #0040FF;
+	-fx-text-color:#F2F2F2;
+}
+
+.particulesContainer {
+	-fx-background-color: #F2F2F2;
+	-fx-border-widht:2.0px;
+	-fx-border-style:solid;
+}
+
+.border-pane{
+	-fx-background-color: #B0C4DE;
+}
