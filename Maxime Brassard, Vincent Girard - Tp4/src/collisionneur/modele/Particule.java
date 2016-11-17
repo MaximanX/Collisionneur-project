@@ -4,18 +4,18 @@ import javafx.scene.paint.Color;
 
 public class Particule {
 
-	private static final int MIN_VITESSE = 0;
-	private static final int MAX_VITESSE = 10;
-	private static final int MIN_DIRECTION = 0;
-	private static final int MAX_DIRECTION = 360;
-	private static final int MIN_RAYON = 4;
-	private static final int MAX_RAYON = 10;
-	private static final int MIN_X = 0;
-	private static final int MIN_Y = 0;
+	public static final int MIN_VITESSE = 0;
+	public static final int MAX_VITESSE = 10;
+	public static final int MIN_DIRECTION = 0;
+	public static final int MAX_DIRECTION = 360;
+	public static final int MIN_RAYON = 4;
+	public static final int MAX_RAYON = 10;
+	public static final int MIN_X = 0;
+	public static final int MIN_Y = 0;
 	// TODO établir la position maximum en X
-	private static final int MAX_X = 100;
+	public static final int MAX_X = 100;
 	// TODO établir la position maximum en Y
-	private static final int MAX_Y = 100;
+	public static final int MAX_Y = 100;
 	private int positionY;
 	private int positionX;
 	// Le rayon agit aussi comme la masse pour les calculs
