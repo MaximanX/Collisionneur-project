@@ -1,16 +1,18 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
 .pane{    
     -fx-background-color: #A9D0F5;
 }
 
 .button {
 	-fx-background-color: #0040FF;
-	-fx-text-color:#F2F2F2;
+	-fx-text-fill:#F2F2F2;
 }
 
 .particulesContainer {
 	-fx-background-color: #F2F2F2;
-	-fx-border-widht:2.0px;
-	-fx-border-style:solid;
+	-fx-border-width: 2.0px;
+	-fx-border-style: solid;
 }
 
 .border-pane{
